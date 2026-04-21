@@ -1,0 +1,59 @@
+@import url(http://127.0.0.1:3000/wk4/batman.html);
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/batman/batbg.jpg);
+    background-color: black;
+    color: whitesmoke
+
+    
+}
+
+footer{
+    letter-spacing: normal;
+}
+
+
+
+.nav {
+    display: flex;       
+    gap: 10px;         
+    margin-bottom: 40px; 
+}
+
+.link-button {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;     
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: whitesmoke;
+}
+
+
+/*cast content */
+.content {
+    display: block;
+}
+
+.facepic img{
+    float: left; 
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black
+}
+
+.picdiv{
+    width:950px;
+    border:1px solid grey;
+    box-shadow:3px 3px 5px black;
+    margin:10px;
+    border-radius:5px;
+    float:left;
+}

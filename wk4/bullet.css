@@ -1,0 +1,67 @@
+@import url(bullet.html);
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/bullet/Bullet-Train-Cast\ copy.jpeg);
+   color: red;
+    
+}
+
+
+footer{
+    letter-spacing: normal;
+}
+
+.head{
+    color: red;
+    font-size:larger;
+
+}
+
+.nav {
+    display: flex;       
+    gap: 10px;         
+    margin-bottom: 40px; 
+}
+
+.link-button {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;     
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: azure;
+    color: red;
+
+}
+
+
+/*cast content */
+.content {
+    display: block;
+}
+
+.facepic img{
+    float: left; 
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black
+}
+
+.picdiv{
+    width:500px;
+    border:1px solid grey;
+    box-shadow:3px 3px 5px black;
+    margin:10px;
+    border-radius:5px;
+    float:left;
+    background-color: azure;
+    color: red;
+    
+}

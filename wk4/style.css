@@ -1,0 +1,13 @@
+@import url(index.html);
+
+body {
+
+    margin:75px;
+    background-color:lightblue;
+}
+
+.nav {
+    display: flex;       
+    gap: 10px;         
+    margin-bottom: 40px; 
+}
