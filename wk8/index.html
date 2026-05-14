@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="favoritefoods">
+        <h2>my favorite foods are:</h2>
+
+        <ul id="ulfood">
+            
+        </ul>
+
+
+
+    </div>
+    <script>
+        var ulfood = document.querySelector("#ulfood")
+
+        var food = [
+            "honey bun",
+            "cereal",
+            "bagel",
+        ]
+        for(let n = 0; n < food.length; n++){
+            ulfood.innerHTML += "<li>" + food[n] + "</li>"       
+        }
+//looping through all keys in an object
+        for(let key in car){
+            console.log(car[key])
+        }
+
+
+        var numberforloop = 0
+
+        for(let i = 0; i <= 54; i +=2){
+            numberforloop += 6
+
+            console.log(numberforloop)
+
+        
+        }
+
+        function pizza(){
+            console.log("pizza")
+        }
+
+        for(let i = 0; i<= 72; i++){
+            pizza()
+        }
+
+        var movies = [
+            "spider man",
+            "avengers",
+            "conjuring"
+        ]
+        console.log(movies[0])
+
+        for(let i = 0; i < movies.length; i++){
+            console.log(movies[i])
+        }
+
+        var numberarray = []
+
+        for(let i = 0; i < 7; i++){
+            numberarray.push(i * 5432 / 93 + 23 )
+        }
+        console.log(numberarray)
+
+        //2d array
+        var twodarray = [
+            [0,0,0,0,0],
+            [1,2,3,4,5],
+            [2,5,6,8,4],
+            [34,7,9,5,23,4]       
+        ]
+
+        for(let x = 0; x < twodarray.length; x++){
+            for(let y = 0; y < twodarray[x].length; y++){
+                console.log(twodarray[x][y])
+            }
+        }
+        
+               
+        
+
+        //objects
+
+        var person = {
+            first: "ken",
+            last: "duran"
+        }
+
+        var car = {
+            wheels: 2000,
+            hasengine: true,
+            drive: function(){console.log("vroom")}
+        }
+        console.log("this car has"+car.wheels+"wheels")
+
+        car.drive()
+        
+        console.log(person.last)//printing object value
+
+
+        var unorderedmovies = document.querySelector("#listofmovies")
+        for(let i = 0; i < movies.length; i++){
+            unorderedmovies.innerHTML += "<li>" + movie[i] + "</li>"
+        }
+
+        
+    </script>
+
+
+
+
+</body>
+</html>
